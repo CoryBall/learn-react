@@ -1,15 +1,16 @@
 import React from 'react';
-import { Hello, HelloClass } from './components';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { Header } from './components/navigation';
+import CounterPage from './pages/counterPage';
+import HomePage from './pages/homePage';
 
 function App() {
   return (
-    <div className="m-auto">
-      <div className="flex space-x-4">
-        <Hello text="I'm a Functional Component!" />
-        <HelloClass text="I'm a Class Component!" />
-      </div>
-      <div className="border-2 bg-black w-full" />
-    </div>
+    <Router>
+      <Header />
+      <Route path="/" exact component={HomePage} />
+      <Route path="/counter" component={CounterPage} />
+    </Router>
   );
 }
 
