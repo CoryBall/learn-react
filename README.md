@@ -1,25 +1,16 @@
 # React Tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This branch covers the basics of both JavaScript and React doing tasks commonly in React apps
 
-<br/>
-
-## Skip to Available Scripts [Here](#available-scripts)
-<br/>
-
-### This repository servers as a tutorial for React.
-It touches on multiple things, and each "lesson" is it's own branch. Look for code comments and the README for information between branches.
-
-### This branch covers the basics of both JavaScript and React doing tasks commonly in React apps
-
-1. Learn the basics of importing and exporting functions, components, and variables in src/components
+- Learn the basics of importing and exporting functions, components, and variables
+- Navigate to `src/components/README.md` and read up
 
 <br/>
 <br/>
 <br/>
-<br/>
 
-## Available Scripts
+
+## Scripts
 
 ### `yarn start`
 
