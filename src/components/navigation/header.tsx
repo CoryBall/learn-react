@@ -12,9 +12,8 @@ const Header: React.FC = () => {
                     <Link to="/counter">Counter</Link>
                 </div>
             </div>
-            
         </div>
     )
 }
-// IAmTheMilkMAnn_
+
 export default Header;

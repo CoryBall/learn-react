@@ -1,9 +1,9 @@
 # React Tutorial
 
-## This branch covers page routing and hooks.
+## This branch covers page routing and basic usage of hooks.
 ## Hooks will be further explained in the next branch, making an API request
 
-- 
+### Start by looking at the changes in `src/App.tsx`, and the README in `src/components/navigation`
 
 <br/>
 <br/>

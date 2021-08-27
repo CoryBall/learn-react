@@ -7,3 +7,5 @@ It is very simple to implement routing using React Router, just import the Route
 Typically the routing is placed in the root component, in this case `src/App.tsx`
 
 Notice how I still directly include `<Header />`, which is our top nav bar for our app. 
+
+## Next, Check out `src/components/counter`

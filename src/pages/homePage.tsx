@@ -1,6 +1,6 @@
 import { Hello, HelloClass } from '../components';
 
-function HomePage() {
+const HomePage: React.FC = () => {
   return (
     <div className="m-auto">
       <div className="flex space-x-4">
