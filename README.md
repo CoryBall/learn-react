@@ -1,9 +1,8 @@
 # React Tutorial
 
-## This branch covers page routing and basic usage of hooks.
-## Hooks will be further explained in the next branch, making an API request
+## This branch covers useEffect and retrieving data from an external API.
 
-### Start by looking at the changes in `src/App.tsx`, and the README in `src/components/navigation`
+### Start by looking at the changes in `src/App.tsx` for the two new pages, and the README in `src/components/navigation`
 
 <br/>
 <br/>
