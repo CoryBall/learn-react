@@ -14,6 +14,9 @@ const Header: React.FC = () => {
                 <div className="text-blue-500 rounded bg-white px-4 py-2 text-xl">
                     <Link to="/characters">Characters</Link>
                 </div>
+                <div className="text-blue-500 rounded bg-white px-4 py-2 text-xl">
+                    <Link to="/devextreme">DevExtreme</Link>
+                </div>
             </div>
         </div>
     )
