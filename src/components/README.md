@@ -4,9 +4,9 @@
 
 <br /> 
 
- - file.js is a basic JavaScript file. It cannot contain components or web contents, its mostly use to export existing components or house code, like constants and helper functions. 
- - file.jsx is a special file extension that allows html inside of javascript. Most of the React-specific code will be in these
- - file.ts and file.tsx are the same as .js and .tsx respectively, just TypeScript instead of JavaScript.
+ - file.js is a basic JavaScript file. It cannot contain components or web contents, its mostly used to export existing components, mock data, business logic, configuration, or helper functions.
+ - `.jsx` is a special file extension that allows html inside of javascript. Most of the React-specific code will be in these
+ - file.ts and file.tsx are the same as .js and .tsx respectively, they just use TypeScript instead of JavaScript.
  - TypeScript is a superset of JavaScript made by Microsoft that contains typing. Making Front-End code with a strongly-typed language makes developing in teams much more efficient and clear. Plugins for Visual Studio Code give very useful hints and errors that may not be possible to detect if using JavaScript. This makes for much more efficient bug-fixing and better readability at a slight cost to development time.
 
 ## There are typically two ways both to import and export
@@ -30,10 +30,10 @@
 
 React.js originally used only class-based components, but as javascript generally grew more function-oriented, they created functional components.
 
-- Class components included methods for events such as componentDidMount and componentWillUnmount.
-- Functional Components came with something called hooks, which are special functions that can only be called from within components and serve the same purpose.
+- Class components included methods for events such as `componentDidMount` and `componentWillUnmount`.
+- Functional Components released with something called hooks, which are special functions that can only be called from within components and serve the same purpose as many different Class Component methods such as `componentDidMount`.
 
-React now recommends just using function-based components and their documentation is undergoing a large rewrite to include function components throughout, but knowing class-based components is useful for dealing with legacy code or transcribing stack overflow answers ;D
+React now recommends just using function-based components and their documentation is undergoing a large rewrite to include function components throughout, but knowing class-based components is useful for dealing with legacy code, reading documentation, or transcribing stack overflow answers ;D
 
 <br />
 
