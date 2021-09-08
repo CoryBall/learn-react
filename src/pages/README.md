@@ -6,6 +6,6 @@ After adding the pages to our Router in `src/App.tsx`, the workflow is to route 
 
 To make components more reusable, do not APIs from within components, Call them at the page level and pass the data retrieved through props to the components. Use components only to display data. For things like submitting forms, create a `onSubmit` prop, create the API function wrapper in the page level, and pass the function down the form component.
 
-This project is using axios, one of the most popular Http Client libraries with passible a type parameter to define the structure for the data. The types are from `/src/types` (there is a README there for explanation).
+This project is using axios, one of the most popular Http Client libraries with a passible type parameter to define the structure for the data. The types used here are from `/src/types` (there is a README there for explanation).
 
 See the `src/components/rickAndMorty` for the component definitions.

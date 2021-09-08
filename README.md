@@ -2,7 +2,7 @@
 
 ## This branch covers useEffect and retrieving data from an external API.
 
-### Start by looking at the changes in `src/App.tsx` for the two new pages, and the README in `src/components/navigation`
+### Start by looking at the changes in `src/App.tsx` for the two new pages, and the README in `src/pages`
 
 <br/>
 <br/>
