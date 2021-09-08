@@ -1,8 +1,10 @@
 # React Tutorial
 
-## This branch covers useEffect and retrieving data from an external API.
+## This branch shows examples of [DexExtreme](https://js.devexpress.com/Documentation/Guide/React_Components/DevExtreme_React_Components/) React Components
 
-### Start by looking at the changes in `src/App.tsx` for the two new pages, and the README in `src/components/navigation`
+The new page is `src/pages/devextreme.tsx`, and the component wrappers are in `src/components/devextreme`
+
+I just copied some of the demos from their documentation, converting them to use Typescript and Functional Components
 
 <br/>
 <br/>
