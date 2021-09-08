@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <br/>
 
-## Skip to Available Scripts [Here](#available-scripts)
+## Skip to available scripts [Here](#available-scripts)
 <br/>
 
-### This repository servers as a tutorial for React.
+### This repository serves as a tutorial for React.
 It touches on multiple things, and each "lesson" is it's own branch. Look for code comments and the README for information between branches.
 
 ### This first branch goes over the initial project setup and the basics of how React.js works
@@ -20,16 +20,16 @@ It touches on multiple things, and each "lesson" is it's own branch. Look for co
     7.20.1
  ```
 
-2. There is not much work to do in this branch, just clone it and begin.
+2. There is not much work to do in this branch, just clone it.
 
-3. Take a look at public/index.html
+3. Take a look at `public/index.html`
    - Notice its bare, just a div with id="root"
 
-4. Now look at src/index.tsx
-   - This is where it grabs the entrypoint of our React application, App, and mounts it to that root div in public/index.html
+4. Now look at `src/index.tsx`
+   - This is where it grabs the entrypoint of our React application, App, and mounts it to that root div in `public/index.html`
 
 5. Run `npm run build`
-   - Now the project has generated a production-ready folder, dist/ for your app. It copies your public/ folder, and bundles all the code in src/ into a few .js files known as chunks. Now your code is minified for the smallest weight when delivering over a CDN or serving statically 
+   - Now the project has generated a production-ready folder, `dist/` for your app. It copies your `public/` folder, and bundles all the code in `src/` into a few .js files known as chunks. Now your code is minified for the smallest weight when delivering over a CDN or serving statically 
 
 <br/>
 <br/>
