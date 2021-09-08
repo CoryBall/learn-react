@@ -10,8 +10,8 @@ const Counter: React.FC = () => {
         <div className="flex m-auto text-6xl text-center space-x-10">
             <button
                 onClick={() => {
-                    // setCount(count - 1)
-                    countRef.current--;
+                    setCount(count - 1)
+                    // countRef.current--;
                     console.log(countRef.current);
                 }}
                 className="text-white rounded bg-blue-500 w-32 h-16 px-4 py-2 text-4xl"
@@ -23,8 +23,8 @@ const Counter: React.FC = () => {
             </div>
             <button
                 onClick={() => {
-                    // setCount(count + 1)
-                    countRef.current++;
+                    setCount(count + 1)
+                    // countRef.current++;
                     console.log(countRef.current);
                 }}
                 className="text-white rounded bg-blue-500 w-32 h-16 px-4 py-2 text-4xl"
