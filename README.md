@@ -1,29 +1,27 @@
 # React Tutorial
 
-## This branch shows examples of [DexExtreme](https://js.devexpress.com/Documentation/Guide/React_Components/DevExtreme_React_Components/) React Components
+## This branch addresses scalability concerts
 
-The new page is `src/pages/devextreme.tsx`, and the component wrappers are in `src/components/devextreme`
+<br />
 
-I just copied some of the demos from their documentation, converting them to use Typescript and Functional Components
+### Bloating / Page Load Speed
+- There are many tools available to reduce bloat and increase page load speed, for example loading a chunk for a feature only when the user interacts with the feature, not on initial page load
+- Many frameworks and tools like [CRA](https://reactjs.org/docs/code-splitting.html) and [Next.js](https://nextjs.org/docs/advanced-features/dynamic-import) have built-in solutions
+- More generic solutions can be [Webpack](https://webpack.js.org/guides/code-splitting/) or [react-loadable](https://www.npmjs.com/package/react-loadable)
 
-<br/>
-<br/>
-<br/>
-<br/>
+### GUI for package management
+- I personally have never used any of these, but here are some I found in order of popularity:
+  - [Luna](https://github.com/rvpanoz/luna)
+    - ~100 stars on GitHub
+    - Not-so-active development (last commit 10 months ago)
+    - 8 Issues (As of Sept 8, 2021)
+  - [npm-gui](https://github.com/q-nick/npm-gui)
+    - ~500 stars on Github
+    - Active development (commit 4 months ago)
+    - 11 Issues (As of Sept 8, 2021)
 
-## Available Scripts
+<br />
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Package Dependency Security
+- NPM has a [built-in audit command](https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities) that produces a report of dependency vulnerabilities and available suggested patches for locally installed packages
+- [Mildly helpful article](https://blog.risingstack.com/controlling-node-js-security-risk-npm-dependencies/) showing topics for thought on npm security
