@@ -12,7 +12,7 @@
 ### GUI for package management
 - I personally have never used any of these, but here are some I found in order of popularity:
   - [Luna](https://github.com/rvpanoz/luna)
-    - ~100 stars on GitHub
+    - ~1000 stars on GitHub
     - Not-so-active development (last commit 10 months ago)
     - 8 Issues (As of Sept 8, 2021)
   - [npm-gui](https://github.com/q-nick/npm-gui)
