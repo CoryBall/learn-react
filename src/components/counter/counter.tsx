@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Counter: React.FC = () => {
     const [count, setCount] = React.useState<number>(0);
     const countRef = React.useRef<number>(0);
